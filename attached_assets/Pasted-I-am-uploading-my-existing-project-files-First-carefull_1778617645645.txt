@@ -1,0 +1,367 @@
+I am uploading my existing project files. First carefully analyze ALL uploaded files, workspace structure, package.json, pnpm-workspace, Vite config, Firebase setup, routing, Replit setup, and Vercel deployment setup before changing anything.
+
+I want you to build and fix a COMPLETE production-ready modern cafe management web app called “Al-Hafeez Smart Notebook” with ZERO deployment issues and ZERO routing issues.
+
+IMPORTANT:
+This project MUST work perfectly on:
+- Replit
+- GitHub
+- Vercel
+- Mobile browsers
+- Desktop browsers
+
+The app must be modern, premium, smooth, responsive, bug-free, and optimized.
+
+==================================================
+MAIN TECH STACK
+==================================================
+
+Use:
+- React 19
+- Vite 7
+- TypeScript
+- Tailwind CSS v4
+- pnpm
+- Firebase Firestore
+- Firebase Hosting compatible structure
+- wouter routing
+- shadcn/ui
+- lucide-react
+- framer-motion
+
+NO Express backend needed.
+Pure frontend + Firebase architecture only.
+
+==================================================
+VERY IMPORTANT DEPLOYMENT FIXES
+==================================================
+
+I am repeatedly getting Vercel deployment errors and vite install errors. Fix EVERYTHING automatically.
+
+Problems to fix:
+- vite command not found
+- pnpm install issues
+- node_modules missing
+- workspace issues
+- routing 404 issues
+- login route issues
+- Vercel deployment failures
+- build command failures
+- output directory issues
+- React routing refresh problems
+- Firebase env variable issues
+- Replit preview issues
+- package dependency conflicts
+- broken imports
+- missing scripts
+- TypeScript errors
+- workspace resolution issues
+
+==================================================
+CRITICAL REQUIREMENTS
+==================================================
+
+1. INSTALL ALL REQUIRED DEPENDENCIES AUTOMATICALLY
+
+Install and configure EVERYTHING required:
+- vite
+- react
+- react-dom
+- typescript
+- firebase
+- tailwindcss
+- postcss
+- autoprefixer
+- wouter
+- framer-motion
+- lucide-react
+- shadcn/ui dependencies
+- clsx
+- tailwind-merge
+- class-variance-authority
+- any required Vite plugins
+- any required TypeScript types
+- all missing dependencies
+
+Use pnpm properly.
+
+==================================================
+2. FIX VERCEL COMPLETELY
+==================================================
+
+Configure Vercel correctly.
+
+Use:
+Framework preset:
+- Vite
+
+Root directory:
+- artifacts/cafe-tracker
+
+Build command:
+- pnpm install && pnpm run build
+
+Output directory:
+- dist
+
+Install command:
+- pnpm install
+
+Development command:
+- pnpm vite
+
+Also:
+- create correct vercel.json
+- add SPA rewrites
+- fix refresh routing
+- ensure direct links work
+- ensure /login works
+- ensure /history works
+- ensure /summary works
+- ensure /menu works
+
+Required Vercel rewrite:
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
+==================================================
+3. FIREBASE INTEGRATION
+==================================================
+
+Use Firebase Firestore as cloud database.
+
+Create:
+- firebase.ts
+- firestore.ts
+
+Features:
+- realtime sync
+- cloud storage
+- automatic updates
+- CRUD support
+- persistent data
+
+Use VITE_ prefixed env variables:
+- VITE_FIREBASE_API_KEY
+- VITE_FIREBASE_AUTH_DOMAIN
+- VITE_FIREBASE_PROJECT_ID
+- VITE_FIREBASE_STORAGE_BUCKET
+- VITE_FIREBASE_MESSAGING_SENDER_ID
+- VITE_FIREBASE_APP_ID
+
+Add proper env handling.
+
+==================================================
+4. APP FEATURES
+==================================================
+
+Build a premium cafe sales tracker and menu management app.
+
+Pages:
+1. Sales Entry
+2. History
+3. Summary
+4. Menu Management
+5. Login Page
+
+==================================================
+5. SALES ENTRY PAGE
+==================================================
+
+Features:
+- add menu items to cart
+- quantity controls
+- increase/decrease buttons
+- payment methods:
+  - Cash
+  - UPI
+  - Split
+  - Pending
+- automatic total calculation
+- save sales
+- custom date selection
+- live Firestore save
+- responsive mobile UI
+- smooth animations
+
+==================================================
+6. HISTORY PAGE
+==================================================
+
+Features:
+- notebook style layout
+- grouped by date
+- edit entries
+- delete entries
+- search
+- filter
+- payment type filtering
+- date filtering
+- live updates
+
+==================================================
+7. SUMMARY PAGE
+==================================================
+
+Features:
+- today sales
+- weekly sales
+- monthly sales
+- payment breakdown
+- top selling items
+- charts
+- analytics cards
+- beautiful premium UI
+
+==================================================
+8. MENU MANAGEMENT PAGE
+==================================================
+
+Features:
+- add items
+- edit items
+- delete items
+- categories
+- item images
+- enable/disable item
+- Firestore sync
+- search menu
+- category filter
+
+==================================================
+9. UI DESIGN
+==================================================
+
+Theme:
+- premium black + gold
+- modern glassmorphism
+- smooth animations
+- mobile-first
+- max width 430px
+- beautiful typography
+- smooth transitions
+- no lag
+- no UI bugs
+- professional look
+- responsive everywhere
+
+NO emojis inside app UI.
+
+==================================================
+10. LOGIN SYSTEM
+==================================================
+
+Fix the current login issue:
+“404 Page Not Found – Did you forget to add the page to the router?”
+
+Create proper routes.
+
+Add:
+- /login route
+- protected routes
+- Firebase auth ready structure
+- route guards
+- correct router setup using wouter
+
+==================================================
+11. PROJECT STRUCTURE
+==================================================
+
+Use clean structure:
+
+artifacts/cafe-tracker/
+  src/
+    components/
+    pages/
+    hooks/
+    lib/
+    styles/
+    routes/
+  public/
+  vercel.json
+  vite.config.ts
+
+==================================================
+12. FIX ALL BUILD ISSUES
+==================================================
+
+Ensure:
+- pnpm install works
+- pnpm run build works
+- vite build works
+- no missing dependencies
+- no missing vite
+- no workspace conflicts
+- no TS compile errors
+- no ESLint crashes
+- no broken imports
+- no failed deployment
+
+==================================================
+13. GITHUB + REPLIT SUPPORT
+==================================================
+
+Ensure:
+- works in GitHub
+- works after cloning
+- works in Replit
+- works in Vercel
+- no manual fixing required
+
+Automatically generate:
+- .gitignore
+- .npmrc
+- .replit
+- README.md
+- vercel.json
+
+==================================================
+14. FINAL OUTPUT REQUIRED
+==================================================
+
+After completing:
+1. Show final folder structure
+2. Show all installed packages
+3. Show all environment variables required
+4. Show exact Vercel settings
+5. Show deployment instructions
+6. Ensure app builds successfully
+7. Ensure app runs successfully
+8. Ensure no 404 routing issue
+9. Ensure no vite install issue
+10. Ensure no pnpm workspace issue
+
+==================================================
+15. IMPORTANT
+==================================================
+
+DO NOT create partial code.
+DO NOT leave TODOs.
+DO NOT leave placeholder pages.
+DO NOT leave broken imports.
+DO NOT leave missing dependencies.
+
+Create COMPLETE WORKING CODE only.
+
+Analyze uploaded files first and intelligently merge/fix the existing project instead of rebuilding blindly.
+
+The app must feel like a real premium production SaaS cafe management app.
+
+Current uploaded project already contains:
+- React + Vite
+- pnpm workspace
+- Firebase architecture
+- wouter routing
+- Tailwind
+- TypeScript
+- Vercel setup
+
+Use those existing files properly and fix all existing issues instead of breaking the structure.
+
+Also make sure all scripts inside package.json work correctly. Existing workspace scripts and TypeScript configuration must remain compatible. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}

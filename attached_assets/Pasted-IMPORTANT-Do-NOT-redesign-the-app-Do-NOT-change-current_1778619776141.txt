@@ -1,0 +1,176 @@
+IMPORTANT:
+Do NOT redesign the app.
+Do NOT change current UI.
+Do NOT rebuild the project.
+Do NOT change colors, animations, layouts, or dashboard structure.
+
+Keep EVERYTHING exactly the same visually.
+
+Your ONLY job is to make the project production-ready for:
+- Vercel
+- GitHub
+- Replit
+
+==================================================
+FINAL DEPLOYMENT STABILIZATION
+==================================================
+
+Carefully analyze the existing project and fix ONLY deployment/build issues.
+
+Fix:
+- vite command not found
+- pnpm install issues
+- node_modules missing
+- workspace dependency issues
+- Vercel build failures
+- package resolution issues
+- TypeScript compile issues
+- missing dependency issues
+- production build issues
+- broken import paths
+- React refresh routing issues
+- 404 errors on direct routes
+
+==================================================
+DO NOT CHANGE APP UI
+==================================================
+
+Do NOT modify:
+- app design
+- card layout
+- sales dashboard
+- menu UI
+- images layout
+- animations
+- categories
+- dashboard spacing
+- Firebase structure
+- business logic
+
+Only stabilize deployment/build system.
+
+==================================================
+VERIFY ALL REQUIRED PACKAGES
+==================================================
+
+Ensure these are installed correctly:
+
+Dependencies:
+- react
+- react-dom
+- firebase
+- wouter
+- framer-motion
+- lucide-react
+
+Dev Dependencies:
+- vite
+- @vitejs/plugin-react
+- typescript
+- @types/react
+- @types/react-dom
+
+==================================================
+PACKAGE.JSON FIX
+==================================================
+
+Ensure package.json contains:
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
+
+Ensure vite exists inside devDependencies.
+
+==================================================
+PNPM FIX
+==================================================
+
+Ensure:
+- pnpm install works
+- pnpm run build works
+- pnpm run dev works
+- no workspace conflicts
+- no lockfile corruption
+- no missing node_modules
+
+If workspace causes problems:
+- intelligently simplify workspace setup
+- but DO NOT break existing app
+
+==================================================
+VITE FIX
+==================================================
+
+Verify:
+- vite.config.ts works
+- React plugin works
+- aliases work
+- build outputs to dist
+- environment variables work
+- no BASE_PATH crash
+- no PORT crash
+
+==================================================
+VERCEL FIX
+==================================================
+
+Ensure vercel.json exists:
+
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
+Correct deployment settings:
+
+Framework Preset:
+Vite
+
+Root Directory:
+artifacts/cafe-tracker
+
+Build Command:
+pnpm install && pnpm run build
+
+Output Directory:
+dist
+
+Install Command:
+pnpm install
+
+==================================================
+ROUTING FIX
+==================================================
+
+Ensure ALL routes work after refresh:
+- /
+- /login
+- /history
+- /summary
+- /menu
+
+Fix:
+“404 Page Not Found”
+
+==================================================
+FINAL VERIFICATION
+==================================================
+
+Before finishing:
+- run pnpm install
+- run pnpm run build
+- verify dist folder generates
+- verify no dependency errors
+- verify no vite errors
+- verify no pnpm errors
+- verify no TypeScript errors
+- verify Vercel deployment succeeds
+
+DO NOT stop until the app builds successfully.

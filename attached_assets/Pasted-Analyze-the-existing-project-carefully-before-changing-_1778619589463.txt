@@ -1,0 +1,200 @@
+Analyze the existing project carefully before changing anything.
+
+IMPORTANT:
+DO NOT redesign the app.
+DO NOT change the current UI.
+DO NOT change the existing layout.
+DO NOT change app logic.
+DO NOT change pages unnecessarily.
+DO NOT remove any existing features.
+
+Keep EVERYTHING exactly the same.
+
+Only:
+1. Fix Vercel deployment issues
+2. Fix GitHub compatibility
+3. Fix pnpm + Vite installation issues
+4. Add menu item images inside the Sales Dashboard
+5. Ensure app builds and deploys successfully
+
+==================================================
+MAIN GOAL
+==================================================
+
+I already built the app structure and UI.
+
+Your job is ONLY to:
+- fix deployment
+- fix installation
+- fix routing
+- fix build issues
+- fix Vercel
+- fix GitHub
+- keep app exactly same
+
+==================================================
+DO NOT CHANGE
+==================================================
+
+Keep exactly same:
+- colors
+- theme
+- pages
+- animations
+- menu system
+- dashboard structure
+- Firebase setup
+- design
+- mobile layout
+- buttons
+- categories
+- sales system
+
+Only improve stability and deployment.
+
+==================================================
+FIX ALL CURRENT ISSUES
+==================================================
+
+Fix:
+- vite command not found
+- pnpm workspace issues
+- missing node_modules
+- build failed
+- Vercel deployment failed
+- routing 404 errors
+- login route errors
+- React refresh issue
+- broken imports
+- missing packages
+- GitHub deployment issues
+
+==================================================
+INSTALL REQUIRED PACKAGES
+==================================================
+
+Install ONLY required packages for Vercel + Vite + pnpm compatibility.
+
+Ensure these exist:
+- vite
+- @vitejs/plugin-react
+- react
+- react-dom
+- typescript
+- pnpm
+- firebase
+- wouter
+
+Install all missing dependencies automatically.
+
+==================================================
+PACKAGE.JSON FIX
+==================================================
+
+Ensure package.json scripts work correctly:
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
+
+==================================================
+VITE FIX
+==================================================
+
+Fix/create:
+- vite.config.ts
+- tsconfig.json
+
+Ensure:
+- vite works
+- build works
+- dist folder generates
+- no TypeScript errors
+
+==================================================
+VERCEL FIX
+==================================================
+
+Create/fix vercel.json:
+
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
+Use these Vercel settings:
+- Framework preset: Vite
+- Build command: pnpm install && pnpm run build
+- Output directory: dist
+- Install command: pnpm install
+
+If project is inside folder:
+Root Directory:
+artifacts/cafe-tracker
+
+==================================================
+GITHUB FIX
+==================================================
+
+Ensure:
+- clean GitHub structure
+- proper .gitignore
+- proper package versions
+- no broken paths
+- no missing files
+
+==================================================
+ROUTER FIX
+==================================================
+
+Fix:
+“404 Page Not Found – Did you forget to add the page to the router?”
+
+Ensure all routes work:
+- /
+- /login
+- /history
+- /summary
+- /menu
+
+==================================================
+MENU ITEM IMAGE FEATURE
+==================================================
+
+On the main Sales Dashboard:
+- show image for every menu item
+- keep existing UI same
+- just add item images beautifully
+- responsive layout
+- smooth loading
+- no lag
+
+If image missing:
+- use elegant placeholder image
+
+==================================================
+IMPORTANT
+==================================================
+
+Do NOT rebuild app from scratch.
+Do NOT change design style.
+Do NOT remove features.
+Do NOT modify app behavior unnecessarily.
+
+Only fix deployment + installation + Vercel + GitHub + routing + menu item image support.
+
+After completion:
+- verify pnpm install works
+- verify vite works
+- verify pnpm run build works
+- verify Vercel deployment works
+- verify routes work
+- verify no 404 errors
+- verify images appear in dashboard
+- verify app remains exactly same visually
